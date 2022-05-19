@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen Üye Ol</title>
+</head>
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+        <tr>
+            <td style="width: 120px;">
+                <label for="username">Kullanıcı Adı:</label>
+                
+            </td>
+            <td style="width: 50px;">
+                <input type="text" id="username" placeholder="kullanıcı adı giriniz">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="eposta">Eposta:</label>
+            </td>
+            <td><input type="email" id="eposta" placeholder="e-posta giriniz"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="parola">Parola:</label>
+            </td>
+            <td><input type="password"id="parola" placeholder="parola giriniz"></td>
+        </tr>
+    </table>
+
+    <h2>Kişisel Bilgileriniz</h2>
+    <table>
+        <tr>
+            <td style="width: 120px;">
+                <label for="name">Adınız:</label>
+            </td>
+            <td>
+                <input type="text" id="name" placeholder="adınızı giriniz">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="surname">Soyadınız:</label>
+            </td>
+            <td>
+                <input type="text" id="surname" placeholder="soyadınızı giriniz">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="cities">Şehir:</label>
+            </td>
+            <td>
+                <select id="cities">
+                    <option value="">Seçiniz</option>
+                    <option value="06">Ankara</option>
+                    <option value="34">İstanbul</option>
+                    <option value="41">Kocaeli</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="cinsiyet">Cinsiyet:</label>
+            </td>
+            <td>
+                <input type="radio" name="cinsiyet"> Erkek
+                <input type="radio" name="cinsiyet"> Kadın
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="hobiler">Hobileriniz:</label>
+            </td>
+            <td>
+                <input type="checkbox"> Sinema
+                <input type="checkbox"> Gezmek
+                <input type="checkbox"> Spor
+                <input type="checkbox"> Kitap
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Kaydet</button>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
